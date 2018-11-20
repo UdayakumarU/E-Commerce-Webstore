@@ -1,0 +1,243 @@
+body
+{
+    background-color: #fff;
+    height: 100%
+}
+   .alert{
+  bottom: 10px;
+  padding: 40px;
+  z-index: 101;
+  position: fixed;
+  text-align: center;
+   box-shadow: 2px 5px 5px 2px #BBB;
+   border:2px solid white;
+}
+.nortification
+{
+    font-size:14px;
+    padding:10px 0px 10px 0px;
+  border-radius:5px;
+  font-weight: bold;
+  width: 25%;
+}
+
+.animateOpen{
+    -webkit-animation:moveOpen 2s;
+  -webkit-animation-iteration-count: 1;
+}
+.closebtn {
+  position: absolute;
+  top: -8px;
+    right: 2px;
+    color: #333;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: #999;
+}
+
+#form .modal-title{
+color : var(--blue);
+}
+
+ #navbarDropdownMenuLink
+{
+  bottom: 1px;
+  color: #ffffff;
+  padding-right: 20px;
+  
+}
+#navbarDropdownMenuLink:hover
+{
+ color: #cccccc;
+}
+ 
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+    color: #ffffff;
+}
+
+.dropdown:hover .dropdown-menu {
+    margin-top: 8px;
+    max-height: 200px;
+    opacity: 1;
+}
+ .dropdown-menu li a:hover 
+ {
+   color : var(--blue);
+   background-color: white;
+}
+.nav-item i
+{
+   float:left;
+}
+ #navBarSearchForm input[type=text]
+ {
+    width:500px !important;
+ }
+.owl-carousel {
+position: relative;
+}
+.owl-prev,
+.owl-next {
+position: absolute;
+top: 50%;
+margin-top: -10px; // Half of the prev/next buttons height here in negatives to center them perfectly
+}
+.owl-prev {
+left: 0;
+}
+.owl-next {
+right: 0;
+}
+
+.owl-carousel:hover .owl-buttons {
+  display: none;
+}
+#productSection
+{
+   -webkit-box-shadow: 0px 1px 1px 1px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    0px 1px 1px 1px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         0px 1px 1px 1px #ccc; 
+}
+#productSection .card-header
+{
+  max-height: 50px;
+  background-color: #fff;
+}
+#productSection #productSectionBody
+{
+   
+   max-height: 360px;
+}
+
+#card-product:hover
+{
+    -webkit-box-shadow: 1px 1px 2px 2px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    1px 1px 2px 2px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         1px 1px 2px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.card-body button a
+{
+    text-decoration: none;
+    color : #ffffff;
+}
+.name
+{
+  white-space: nowrap;
+     overflow: hidden;
+    text-overflow:ellipsis;
+}
+.name a
+{
+    text-decoration: none;
+     
+}
+#view-all button
+{
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+}
+.product-name
+{
+     resize: none
+}
+section {
+    padding: 30px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.breadcrumb a
+{
+   text-decoration: none; 
+}
+#footer {
+    
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #282828;
+    color: white; 
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+    padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 8px;
+    font-size:30px;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+    font-size:30px;
+    margin-top:-15px;
+}
+#footer ul.social li a{
+    color:#999999;
+}
+#footer ul.social li a:hover{
+    color:#fff;
+}
+
+
+@media (max-width:100%){
+    #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+.custom-select
+{
+    background: #fff;
+}
+#collapseExample ul li a
+{
+    padding: 10px; 
+    
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+#navbarSupportedContent .dropdown-menu i
+{
+  font-size: 20px;
+}
